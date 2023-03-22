@@ -9,21 +9,3 @@
     }
   ]
 }
-  
-  // {
-  //   "name": "Analyzing Social Media Sentiment with 23c",
-  //   "short_name": "Oracle Machine Learning Workshop",
-  //   "start_url": ".",
-  //   "display": "standalone",
-  //   "background_color": "#ffffff",
-  //   "description": "My site description",
-
-  //   "files": [
-  //     "../../intro/intro.md",
-  //     "../../collect/collect.md",
-  //     "../../dataprep/dataprep.md",
-  //     "../../buildsam/buildsam.md",
-  //     "../../evaluate/evaluate.md",
-  //     "../../wrapup/wrapup.md"
-  //   ]
-  // }
