@@ -4,8 +4,7 @@
     "tutorials": [
       {
         "title": "Analyzing Social Media Sentiment with 23c",
-        "description": "Guide",
-        "filename": "../../oracle-ml-social-sentiment-analysis/oracle-ml-social-sentiment-analysis.md"
+        "description": "Guide"
       }
     ]
   }
