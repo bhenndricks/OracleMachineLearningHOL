@@ -353,7 +353,9 @@ END;
 2. Use the predict_sentiment function in your applications to perform real-time sentiment analysis on social media data. You can test the function by passing a sample tweet text as input:
 
 ```
+<copy>
 SELECT predict_sentiment('This workshop is amazing!') AS predicted_sentiment FROM DUAL;
+</copy>
 ```
 
 
