@@ -48,9 +48,9 @@ By the end of this workshop, attendees will be able to:
 
 This workshop offers a hands-on experience with Oracle Machine Learning in Oracle Database 23c and highlights its ability to analyze real-time social media sentiment, a viral and trending topic. It showcases the latest features and differentiators, offering a high potential for social media engagement and differentiation from competing solutions.
 
-# Lab 1: Collecting and Exploring Social Media Data (15 Minutes)
+## Lab 1: Collecting and Exploring Social Media Data (15 Minutes)
 
-## Task 1: Collect social media data using an API
+### Task 1: Collect social media data using an API
 Sign up for a Twitter Developer account and create a new project to obtain your API keys and access tokens. You will need the following:
 
 * API key
