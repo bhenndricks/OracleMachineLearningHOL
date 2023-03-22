@@ -1,19 +1,29 @@
-
+{
+  "workshoptitle": "Analyzing Social Media Sentiment with 23c",
+  "help": ["blake.hendricks@oracle.com"],
+  "tutorials": [
+    {
+      "title": "Analyzing Social Media Sentiment with 23c",
+      "description": "Guide",
+      "filename": "../../oracle-ml-social-sentiment-analysis/oracle-ml-social-sentiment-analysis.md"
+    }
+  ]
+}
   
-  {
-    "name": "Analyzing Social Media Sentiment with 23c",
-    "short_name": "Oracle Machine Learning Workshop",
-    "start_url": ".",
-    "display": "standalone",
-    "background_color": "#ffffff",
-    "description": "My site description",
+  // {
+  //   "name": "Analyzing Social Media Sentiment with 23c",
+  //   "short_name": "Oracle Machine Learning Workshop",
+  //   "start_url": ".",
+  //   "display": "standalone",
+  //   "background_color": "#ffffff",
+  //   "description": "My site description",
 
-    "files": [
-      "../../intro/intro.md",
-      "../../collect/collect.md",
-      "../../dataprep/dataprep.md",
-      "../../buildsam/buildsam.md",
-      "../../evaluate/evaluate.md",
-      "../../wrapup/wrapup.md"
-    ]
-  }
+  //   "files": [
+  //     "../../intro/intro.md",
+  //     "../../collect/collect.md",
+  //     "../../dataprep/dataprep.md",
+  //     "../../buildsam/buildsam.md",
+  //     "../../evaluate/evaluate.md",
+  //     "../../wrapup/wrapup.md"
+  //   ]
+  // }
