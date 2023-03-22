@@ -1,11 +1,11 @@
 {
-    "workshoptitle": "Connecting IBM Datastage to Oracle Autonomous Database",
+    "workshoptitle": "Oracle Machine Learning Workshop",
     "help": ["blake.hendricks@oracle.com"],
     "tutorials": [
       {
-        "title": "IBM Datastage Connection Guide",
+        "title": "Analyzing Social Media Sentiment with 23c",
         "description": "Guide",
-        "filename": "../../ibm-datastage/ibm-datastage.md"
+        "filename": "../../oracle-ml-social-sentiment-analysis/oracle-ml-social-sentiment-analysis.md"
       },  
       {
         "title": "Appendix 1. Autonomous Database Wallet",
