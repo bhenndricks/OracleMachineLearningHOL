@@ -347,11 +347,18 @@ BEGIN
     RETURN v_sentiment_label;
 END;
 /
-```
+``` 
 
 2. Use the predict_sentiment function in your applications to perform real-time sentiment analysis on social media data. You can test the function by passing a sample tweet text as input:
+<copy>
 ```
 SELECT predict_sentiment('This workshop is amazing!') AS predicted_sentiment FROM DUAL;
 ```
+</copy>
 
 3. This will return the predicted sentiment label (1 for positive, 0 for neutral, -1 for negative) for the given tweet text.
+
+## **Acknowledgements**
+* **Author(s)** - Blake Hendricks
+* **Contributor(s)** -
+* **Last Updated By/Date** -
