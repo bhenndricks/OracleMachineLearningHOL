@@ -48,9 +48,9 @@ By the end of this workshop, attendees will be able to:
 
 This workshop offers a hands-on experience with Oracle Machine Learning in Oracle Database 23c and highlights its ability to analyze real-time social media sentiment, a viral and trending topic. It showcases the latest features and differentiators, offering a high potential for social media engagement and differentiation from competing solutions.
 
-## Lab 1: Collecting and Exploring Social Media Data (15 Minutes)
+# Lab 1: Collecting and Exploring Social Media Data (15 Minutes)
 
-### Task 1: Collect social media data using an API
+## Task 1: Collect social media data using an API
 Sign up for a Twitter Developer account and create a new project to obtain your API keys and access tokens. You will need the following:
 
 * API key
@@ -96,7 +96,7 @@ with open('tweets.csv', 'w', newline='', encoding='utf-8') as f:
 ```
 * **Note:** Replace your_hashtag with your desired hashtag and run the script to collect the tweets.
 
-### Task 2: Load and explore the dataset to understand the content and features
+## Task 2: Load and explore the dataset to understand the content and features
 
 1. Use Oracle SQL Developer or another SQL client to connect to your Oracle Database 23c instance.
 
@@ -123,9 +123,9 @@ FROM tweets
 GROUP BY user_name
 ORDER BY num_tweets DESC; -- Get the top users by the number of tweets
 ```
-## Lab 2: Data Preparation (15 minutes)
+# Lab 2: Data Preparation (15 minutes)
 
-### Task 1: Clean and preprocess social media data
+## Task 1: Clean and preprocess social media data
 
 1. Clean the text data by removing URLs, special characters, and converting to lowercase:
 ```
@@ -146,7 +146,7 @@ CREATE TABLE tweet_words AS (
         AND PRIOR SYS_GUID() IS NOT NULL
 );
 ```
-### Task 2: Feature extraction from text data
+## Task 2: Feature extraction from text data
 
 1. Remove stop words from the tweet_words table. You can create a table with common stop words and use it to filter out the stop words from the tweet_words table:
 
@@ -179,7 +179,7 @@ CREATE TABLE tfidf AS (
 );
 ```
 
-### Task 3: Split data into training and testing sets
+## Task 3: Split data into training and testing sets
 
 1. Add a column to the tweets table to store sentiment labels, which will be used as target variables for the model:
 ```
@@ -216,13 +216,13 @@ CREATE TABLE testing_data AS (
     WHERE DBMS_RANDOM.VALUE > 0.7
 );
 ```
-## Lab 3: Building a Sentiment Analysis Model (20 minutes)
+# Lab 3: Building a Sentiment Analysis Model (20 minutes)
 
-### Task 1: Choose an appropriate algorithm for sentiment analysis
+## Task 1: Choose an appropriate algorithm for sentiment analysis
 
 1. For this task, we will use the Support Vector Machines (SVM) algorithm for sentiment analysis, as it works well with high-dimensional text data.
 
-### Task 2: Train the model using the training dataset
+## Task 2: Train the model using the training dataset
 
 1. Create a settings table for the SVM model:
 ```
