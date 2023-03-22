@@ -1,0 +1,17 @@
+{
+    "workshoptitle": "Oracle Machine Learning Workshop",
+    "help": ["blake.hendricks@oracle.com"],
+    "tutorials": [
+      {
+        "title": "Analyzing Social Media Sentiment with 23c",
+        "description": "Guide",
+        "filename": "../../oracle-ml-social-sentiment-analysis/oracle-ml-social-sentiment-analysis.md"
+      },  
+      {
+        "title": "Appendix 1. Autonomous Database Wallet",
+        "description": "Wallet",
+        "filename": "../../../common/wallet/wallet.md"
+      }
+    ]
+  }
+  
